@@ -1,0 +1,16 @@
+.mentor-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.mentor-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.mentor-content-container {
+  padding: 20px;
+  flex: 1;
+  background-color: #f5f7fa;
+}

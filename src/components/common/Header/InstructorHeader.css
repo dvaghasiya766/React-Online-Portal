@@ -1,0 +1,24 @@
+.instructor-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.instructor-main-content {
+  flex: 1;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.instructor-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .instructor-main-content {
+    margin-left: 70px;
+  }
+}
